@@ -1,14 +1,16 @@
+<p align="center"><img src="docs/assets/banner.svg" alt="stream-shadcn" width="100%"></p>
+
 # stream-shadcn
 
 **A Next.js 15 foundation preconfigured with Tailwind CSS and the shadcn/ui design system.**
 
-![Status](https://img.shields.io/badge/Status-Foundation-15803D?style=flat-square&labelColor=111827) ![Next.js](https://img.shields.io/badge/Next.js-15-2563EB?style=flat-square&labelColor=111827&logo=nextdotjs&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-New%20York-2563EB?style=flat-square&labelColor=111827&logo=shadcnui&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-2563EB?style=flat-square&labelColor=111827&logo=tailwindcss&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-6B7280?style=flat-square&labelColor=111827)
+![Status](https://img.shields.io/badge/Status-Archived-15803D?style=flat-square&labelColor=111827) ![Next.js](https://img.shields.io/badge/Next.js-15-2563EB?style=flat-square&labelColor=111827&logo=nextdotjs&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-New%20York-2563EB?style=flat-square&labelColor=111827&logo=shadcnui&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-2563EB?style=flat-square&labelColor=111827&logo=tailwindcss&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-6B7280?style=flat-square&labelColor=111827)
 
-stream-shadcn is a Next.js 15 project with shadcn/ui initialized and no application features yet. It provides a lint-clean base with a complete light and dark design token set, ready for shadcn/ui components to be added on demand.
+stream-shadcn is a Next.js 15 project with shadcn/ui initialized as a configuration-only foundation. It provides a lint-clean base with a complete light and dark design token set, ready for shadcn/ui components to be added on demand.
 
 ## Overview
 
-The project combines the App Router, TypeScript, and Tailwind CSS 3 with the shadcn/ui configuration in `components.json`. The home page renders a single placeholder line; the value of the repository is the setup around it.
+The project combines the App Router, TypeScript, and Tailwind CSS 3 with the shadcn/ui configuration in `components.json`. The home page renders a single placeholder line; the value of the repository is the setup around it. The repository is archived and preserved as a reference foundation.
 
 - **Design tokens:** the full shadcn/ui slate palette for light and dark modes, defined as CSS variables in `app/globals.css`.
 - **Tailwind theme:** semantic colors, radius scale, and `tailwindcss-animate` wired up in `tailwind.config.ts`.
@@ -97,12 +99,6 @@ stream-shadcn/
 ├── README.md
 └── LICENSE
 ```
-
-## Scope and Limitations
-
-- No shadcn/ui components have been added yet; `components/ui/` is created by the first `npx shadcn add` command.
-- The home page is a placeholder that renders the text "Hello".
-- The Geist font variables are defined in `app/layout.tsx` but are not yet mapped into the Tailwind font theme, so pages use the default sans-serif stack.
 
 ## Roadmap
 
