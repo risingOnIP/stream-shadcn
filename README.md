@@ -80,7 +80,7 @@ The shadcn/ui CLI reads `components.json` to decide where components go and whic
 npm run dev
 ```
 
-Open http://localhost:3000 to see the placeholder page. Other scripts: `npm run lint`, `npm run build`, and `npm run start`.
+Open `http://localhost:3000` to see the placeholder page. Other scripts: `npm run lint`, `npm run build`, and `npm run start`.
 
 ## Project Structure
 
