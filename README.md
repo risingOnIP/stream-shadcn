@@ -100,13 +100,6 @@ stream-shadcn/
 └── LICENSE
 ```
 
-## Roadmap
-
-- [ ] Add the first shadcn/ui components (for example Button and Card) under `components/ui/`.
-- [ ] Add a theme toggle that switches the `.dark` class.
-- [ ] Map the Geist font variables into the Tailwind `fontFamily` theme.
-- [ ] Replace the placeholder home page with a landing page.
-
 ## Acknowledgments
 
 - Bootstrapped with [create-next-app](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
